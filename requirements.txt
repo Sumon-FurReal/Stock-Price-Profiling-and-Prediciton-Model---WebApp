@@ -1,4 +1,4 @@
-joblib==1.2.0
+joblib==1.1.0
 pandas==1.4.3
 pandas_profiling==3.2.0
 Pillow==9.4.0
