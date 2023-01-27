@@ -1,4 +1,4 @@
-# Stock-Price-Profiling-and-Prediciton-Model - WebApp :arrow:
+# Stock-Price-Profiling-and-Prediciton-Model - WebApp 🎯
 
 Stock Prices Profiling and Prediction
 
