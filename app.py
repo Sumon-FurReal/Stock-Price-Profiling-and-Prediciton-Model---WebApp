@@ -8,6 +8,7 @@ import pandas as pd
 import os
 import joblib
 import datetime
+import plotly.express as px
 
 # Profiling Imports
 import pandas_profiling
