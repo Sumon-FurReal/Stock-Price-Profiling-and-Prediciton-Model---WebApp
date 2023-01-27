@@ -33,7 +33,7 @@ with st.sidebar:
 
 
 if choice == "Upload Stock Data":
-    st.title("Upload your data for modeling   :bar_chart:")
+    st.title("Upload stock data for modeling   :bar_chart:")
     file = st.file_uploader("Upload Your Dataset Here ")
     if file:
         df = pd.read_csv(file, index_col=None)
