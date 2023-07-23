@@ -13,7 +13,7 @@ import sklearn
 # Profiling Imports
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
-from pydantic_settings import BaseSettings
+from pydantic import BaseSettings
 
 # OS Path
 if os.path.exists("source.csv"):
