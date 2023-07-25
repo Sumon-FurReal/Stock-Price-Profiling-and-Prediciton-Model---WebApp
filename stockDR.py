@@ -10,7 +10,7 @@ import os
 import pickle
 import pandas_profiling
 import streamlit_pandas_profiling
-import sklearn
+# import sklearn
 
 # Profiling Imports
 from streamlit_pandas_profiling import st_profile_report
