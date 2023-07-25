@@ -6,7 +6,7 @@ from PIL import Image
 import plotly.express as px
 import pandas as pd
 import os
-import joblib
+# import joblib
 import pandas_profiling
 import streamlit_pandas_profiling
 # import sklearn
@@ -54,7 +54,8 @@ if choice == "Predict Stock Price":
     st.title("Stock Predictor :crystal_ball:")
     st.info("Utilizes a pre-trained machine learning model to predict the stock's closing price based on user-provided input features such as Open Price, High Price, Low Price, Close Price, Adj Close Price, and Volume.")
     if os.path.exists("source.csv"):
-        loaded_model = joblib.load('price_history_model.pkl')
+        with open('price_history_model.pkl', 'rb') as file:
+            loaded_model = pickle.load(file)
 
         def predict(input_data):
             prediction = loaded_model.predict(input_data)
