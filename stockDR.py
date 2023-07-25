@@ -7,11 +7,11 @@ import plotly.express as px
 import pandas as pd
 import os
 import joblib
-
+import pandas_profiling
 
 # Profiling Imports
 from streamlit_pandas_profiling import st_profile_report
-import pandas_profiling
+
 
 
 # OS Path
