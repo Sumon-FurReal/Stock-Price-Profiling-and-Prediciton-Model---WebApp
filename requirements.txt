@@ -4,3 +4,4 @@ plotly
 pandas
 pandas-profiling
 joblib
+streamlit_pandas_profiling
