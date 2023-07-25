@@ -1,9 +1,0 @@
-joblib
-pandas
-pandas_profiling
-Pillow
-plotly
-streamlit
-streamlit_pandas_profiling
-scikit-learn
-pydantic_settings
