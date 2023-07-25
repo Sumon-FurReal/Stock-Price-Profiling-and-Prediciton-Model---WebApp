@@ -55,7 +55,7 @@ if choice == "Predict Stock Price":
     st.title("Stock Predictor :crystal_ball:")
     st.info("Utilizes a pre-trained machine learning model to predict the stock's closing price based on user-provided input features such as Open Price, High Price, Low Price, Close Price, Adj Close Price, and Volume.")
     if os.path.exists("source.csv"):
-        loaded_model = pickle.load(open('price_history_model.pkl', 'rb'))
+        loaded_model = pickle.load(open('price_history_model.pkl', 'r'))
 
         def predict(input_data):
             prediction = loaded_model.predict(input_data)
