@@ -7,6 +7,7 @@ import plotly.express as px
 import pandas as pd
 import os
 # import joblib
+import pickle
 import pandas_profiling
 import streamlit_pandas_profiling
 # import sklearn
